@@ -72,20 +72,28 @@ class RokokKretek extends Rokok {
 // OBJEK & OUTPUT
 
 // objek dari class utama
+echo "\n";
 $rokok1 = new Rokok("Djarum Super", 24000, 5000);
 echo $rokok1->getInfo() . "\n";
+echo "\n";
 
 // update data rokok1
 $rokok1->setMerk("Marlboro");
 $rokok1->harga = 27000;
 $rokok1->setCukai(6000);
 echo $rokok1->getInfo() . "\n";
+echo "\n";
+
 
 // objek dari RokokElektrik
 $rokokVape = new RokokElektrik("RELX", 85000, 10000, "Mint Ice");
 echo $rokokVape->getInfo() . "\n";
+echo "\n";
+
 
 // objek dari RokokKretek
 $rokokKretek = new RokokKretek("Gudang Garam", 26000, 5000, "Tembakau Madura");
 echo $rokokKretek->getInfo() . "\n";
+echo "\n";
+
 ?>
