@@ -96,4 +96,4 @@ $rokokKretek = new RokokKretek("Gudang Garam", 26000, 5000, "Tembakau Madura");
 echo $rokokKretek->getInfo() . "\n";
 echo "\n";
 
-?>
+
